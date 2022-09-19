@@ -15,7 +15,7 @@ import { createUserV1 } from '../../src/account/account'
 import { PodShareInfo, RawFileMetadata } from '../../src/pod/types'
 import { FileShareInfo } from '../../src/file/types'
 
-jest.setTimeout(200000)
+jest.setTimeout(400000)
 describe('Fair Data Protocol class', () => {
   beforeAll(async () => {
     const batchId = await createUsableBatch()
