@@ -21,7 +21,7 @@ coverage
 .lock-wscript
 
 build
-dist
+# dist
 
 # Dependency directory
 node_modules
